@@ -1,0 +1,36 @@
+.table th, .table thead th {
+    vertical-align: top;
+    border-right: 1px solid #f2f4f8;
+}
+table.dataTable thead .sorting:after {
+    display: none;
+}
+.dataTables_length {
+    display: none;
+}
+.login-register{
+    background: #495a68;
+}
+.login-logo {
+    background: #000;
+    margin-bottom: 15px;
+        padding: 20px 0px;
+}
+.login-logo img{
+        width: 100%;
+    max-width: 150px;
+    margin: auto;
+    display: block;
+}
+.login-register h3{
+    text-align: center;
+}
+.login-register .card {
+    border-radius: 10px;
+    background: #e9ecee;
+}
+.login-register .btn-info, .login-register .btn-primary{
+    color: #e9ecee;
+    background-color: #495a68;
+    border: 1px solid #495a68;
+}
